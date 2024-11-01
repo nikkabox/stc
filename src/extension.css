@@ -1,0 +1,96 @@
+.extension{
+    color: #000;
+}
+
+.ext-trigger{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    transition: right .4s ease;
+}
+
+.triggered .ext-trigger{
+    bottom: 0;
+    right: 500px;
+}
+
+.ext-logo-wrap{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.ext-logo{
+    width: 40px;
+    height: auto;
+}
+
+
+.ext-sidebar{
+    width: 500px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: -500px;
+    bottom: 0;
+
+    transition: right .4s ease;
+}
+
+.triggered .ext-sidebar{
+    right: 0px;
+}
+
+.ext-heading{
+    color: #000;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: center;
+}
+
+.ext-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ext-card{
+    margin: 20px;
+}
+
+/* Ext Typography (extt) */
+
+.extt-small{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.ext-list{
+    margin-left: 20px;
+}
+
+.ext-item{
+    padding: 7px 10px;
+    margin-bottom: 10px;
+}
+
+.ei-danger{
+    border-left: 2px solid #f00;
+}
+
+.ei-warning{
+    border-left: 2px solid orange;
+}
+.ei-info{
+    border-left: 2px solid slateblue;
+}
+
+/* Misc */
+.ext-cp{
+    cursor: pointer;
+}

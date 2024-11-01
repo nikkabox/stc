@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="extension.css">
+        <title>STNC | Demo</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="between">
+                <h3 class="display-heading-sm logo-wrap"><img src="img/logo.svg" width="30px" height="auto"> Choudnarygram</h3>
+
+                <div>
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div class="container">
+            <form class="card my-3 py-2 text-center">
+                <h1 class="display-heading">Register</h1>
+                <p class="small">
+                    Please fill out following form in order to register to Choudharygram
+                </p>
+
+                <hr class="divider my-2">
+
+                <p class="lead text-start w80 ma">
+                    &nbsp;&nbsp;Enter your details in following:
+                </p>
+
+                <div class="my-2">
+                    <div class="row w80 ma">
+                        <input type="text" name="un" id="un" placeholder="Username" class="input">
+                    </div>
+                </div>
+                <div class="my-2">
+                    <div class="row w80 ma">
+                        <input type="text" name="un" id="un" placeholder="Name" class="input">
+                        <input type="email" name="un" id="un" placeholder="Email" class="input">
+                    </div>
+                </div>
+                <div class="my-2">
+                    <div class="row w80 ma">
+                        <input type="password" name="un" id="un" placeholder="Password" class="input">
+                        <input type="password" name="un" id="un" placeholder="Confirm Password" class="input">
+                    </div>
+                </div>
+
+                <div class="between w80 ma">
+                    <div>
+                        <input type="checkbox" name="" id="" required> I accept <a href="terms_and_conditions.html" class="link">T&C</a>
+                    </div>
+                    <button type="submit" class="btn btn-green">
+                        Register
+                    </button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="extension" id="trigger-root">
+            <div class="ext-sidebar">
+                <div class="ext-group" style="margin-top: 12px;">
+                    <h1 class="ext-heading">Simplified T&Cs</h1>
+                    <img src="img/s-logo.svg" class="ext-logo ext-cp" onclick="document.getElementById('trigger-root').classList.toggle('triggered')">
+                </div>
+                <hr class="ext-divider">
+                <div class="ext-card">
+                    <p class="extt-small"><b>Choudharygram</b> wants you to agree on:</p>
+                </div>
+                <div class="ext-list"><p class="ext-item ei-danger"><b>Find You:</b> Know your current location. and Use it for any purpose.</p></div>
+                <div class="ext-list"><p class="ext-item ei-danger"><b>Access Camera:</b> access your camera any time.</p></div>
+                <div class="ext-list"><p class="ext-item ei-danger"><b>Legislation Right:</b> You cannot open "any case" against them in the court.</p></div>
+                <div class="ext-list"><p class="ext-item ei-warning"><b>Use Email:</b> Share your email with marketting agencies.</p></div>
+                <div class="ext-list"><p class="ext-item ei-info"><b>Copyright:</b> You cannot use their data for producing content.</p></div>
+            </div>
+            <div class="ext-trigger">
+                <div class="ext-btn ext-logo-wrap" id="trigger-stc" onclick="document.getElementById('trigger-root').classList.toggle('triggered')">
+                    <img src="img/s-logo.svg" class="ext-logo">
+                </div>
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+        <script src="extension.js"></script>
+    </body>
+</html>
