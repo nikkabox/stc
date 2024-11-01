@@ -38,6 +38,8 @@
     bottom: 0;
 
     transition: right .4s ease;
+
+    padding-bottom: 200px;
 }
 
 .triggered .ext-sidebar{
