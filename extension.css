@@ -94,3 +94,20 @@
 .ext-cp{
     cursor: pointer;
 }
+
+@media (max-width: 1000px){
+    .ext-nomob{
+        display: none;
+    }
+
+
+    .triggered .ext-trigger{
+        right: 300px;
+    }
+
+    
+    .ext-sidebar{
+        width: 300px;
+        right: -300px;
+    }
+}

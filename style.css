@@ -151,3 +151,11 @@ input:focus{
     padding: 0;
     text-decoration: underline;
 }
+
+
+
+@media (max-width: 1000px){
+    .nomob{
+        display: none;
+    }
+}
